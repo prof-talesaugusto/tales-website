@@ -1,48 +1,102 @@
-# Projeto
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tales Augusto Almeida – Aulas Particulares</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004e7c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #eaeaea;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #004e7c;
+      font-weight: bold;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #004e7c;
+      color: white;
+    }
+    h2 {
+      color: #004e7c;
+    }
+    .button {
+      display: inline-block;
+      background-color: #004e7c;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tales Augusto Almeida</h1>
+    <p>Professor | Economista | Aulas Particulares</p>
+  </header>
 
-Este é o repositório do projeto **Projeto**.
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#aulas">Aulas</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-## Descrição
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou economista formado pelo Insper com distinção de mérito colaborativo, monitor de disciplinas como Microeconomia I e Econometria. Tenho paixão pelo ensino e ofereço aulas particulares voltadas para alunos de graduação e pré-vestibular, com abordagem clara e personalizada.</p>
+  </section>
 
-Descreva aqui o objetivo do seu projeto, suas funcionalidades principais e qualquer informação relevante para quem for utilizar ou contribuir.
+  <section id="aulas">
+    <h2>Aulas Particulares</h2>
+    <p>Ofereço aulas nas seguintes disciplinas:</p>
+    <ul>
+      <li>Estatística I e II</li>
+      <li>Sistemas de Informação</li>
+      <li>Microeconomia II e III</li>
+      <li>Econometria Aplicada</li>
+    </ul>
+    <p>Modalidade online ou presencial na região da Av. Paulista. Agendamentos flexíveis. Entre em contato para mais detalhes.</p>
+    <a href="#contato" class="button">Agendar Aula</a>
+  </section>
 
-## Instalação
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📧 Email: tales.aulas@email.com<br>
+       📱 WhatsApp: (11) 91234-5678<br>
+       🔗 <a href="https://www.linkedin.com/in/talesaugustoalmeida" target="_blank">LinkedIn</a>
+    </p>
+  </section>
 
-Para instalar e executar o projeto localmente, siga os passos abaixo:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-# Instale as dependências
-npm install
-# Inicie o projeto
-npm start
-```
-
-> Modifique os comandos conforme a tecnologia usada no projeto.
-
-## Como usar
-
-Explique aqui como utilizar o projeto após a instalação. Por exemplo:
-
-- Execute `npm start` para iniciar o servidor.
-- Acesse `http://localhost:3000` no navegador.
-
-## Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do projeto.
-2. Crie uma branch para sua feature ou correção (`git checkout -b minha-feature`)
-3. Faça o commit das suas alterações (`git commit -m 'Minha contribuição'`)
-4. Faça push para a branch (`git push origin minha-feature`)
-5. Abra um Pull Request.
-
-## Licença
-
-Defina aqui a licença do projeto (por exemplo, MIT).  
-Este projeto está licenciado sob os termos da [Licença MIT](LICENSE).
-
----
-
-Sinta-se à vontade para adaptar este README conforme suas necessidades!
+  <footer>
+    <p>&copy; 2025 Tales Augusto Almeida. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
